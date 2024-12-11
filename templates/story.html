@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Query
+{% endblock %}
+
+
+{% block body %}
+
+    <h1 class="pageCover">Query Time!</h1>
+    <br><br><br>
+    <h2>Answer all the questions to know your true personality.</h2>
+    <br><br>
+
+    <form action="/submit" method="post">
+        {% for scenario in story %}
+            <div class="scenario">
+                <p>{{ scenario.scenario }}</p>
+
+                <button type="button" class="options" value="a">{{ scenario.options.a }}</button>
+                <button type="button" class="options" value="b">{{ scenario.options.b }}</button>
+                <button type="button" class="options" value="c">{{ scenario.options.c }}</button>
+
+                <input type="hidden" name="answers[]" id="answer{{ loop.index }}" value="">
+            </div>
+            <br><br>
+        {% endfor %}
+        <button id="submit" class="hidden" type="submit">Submit</button>
+    </form>
+
+
+
+    <script src="static/options.js"></script>
+{% endblock %}

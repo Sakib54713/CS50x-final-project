@@ -1,0 +1,84 @@
+[
+    {
+      "scenario": "1. You find yourself at the entrance of a mysterious cave. The cave is rumored to be filled with valuable treasures, but also dangerous traps. What do you do?",
+      "options": {
+        "a": "Enter the cave without hesitation.",
+        "b": "Decide to stay outside and observe the entrance.",
+        "c": "Look around the area for a safer way to enter."
+      }
+    },
+    {
+      "scenario": "2. While walking through a dense forest, you hear a growl coming from the bushes. It could be a wild animal. How do you respond?",
+      "options": {
+        "a": "Grab a stick and prepare to defend yourself.",
+        "b": "Slowly back away and try to leave the area quietly.",
+        "c": "Climb a nearby tree to get a better view and stay safe."
+      }
+    },
+    {
+      "scenario": "3. You're exploring an abandoned castle when you find a room filled with ancient artifacts. Suddenly, the door slams shut behind you. What’s your next move?",
+      "options": {
+        "a": "Try to force the door open with your strength.",
+        "b": "Look for another exit or a hidden lever.",
+        "c": "Examine the artifacts for a clue on how to escape."
+      }
+    },
+    {
+      "scenario": "4. While hiking in the mountains, you come across a rickety old bridge that looks like it might collapse at any moment. You need to get to the other side. What do you do?",
+      "options": {
+        "a": "Run across the bridge as quickly as possible.",
+        "b": "Find another path, even if it takes longer.",
+        "c": "Test the bridge carefully before deciding to cross."
+      }
+    },
+    {
+      "scenario": "5. You find yourself lost in a vast desert with no clear sense of direction. In the distance, you see what looks like an oasis. What do you do?",
+      "options": {
+        "a": "Head straight for the oasis, hoping it's real.",
+        "b": "Stay where you are and try to conserve your energy.",
+        "c": "Climb a nearby dune to get a better view of the area."
+      }
+    },
+    {
+      "scenario": "6. While exploring a dense jungle, you find an ancient temple hidden under the overgrowth. The entrance is blocked by vines and debris. How do you proceed?",
+      "options": {
+        "a": "Cut through the vines and clear the entrance.",
+        "b": "Look for another way in, avoiding the entrance.",
+        "c": "Examine the area for traps before entering."
+      }
+    },
+    {
+      "scenario": "7. You come across a shipwreck on a deserted beach. Inside, you find a locked chest. What’s your next move?",
+      "options": {
+        "a": "Break the lock and open the chest.",
+        "b": "Search the area for a key or another way to open it.",
+        "c": "Leave the chest and continue exploring."
+      }
+    },
+    {
+      "scenario": "8. While exploring a snowy mountain, you discover a hidden cave. Inside, you find a sleeping bear. What do you do?",
+      "options": {
+        "a": "Quietly try to sneak past the bear.",
+        "b": "Leave the cave and find another path.",
+        "c": "Find something to distract the bear while you explore."
+      }
+    },
+    {
+      "scenario": "9. You're sailing on a boat when a storm suddenly hits. The waves are getting rough, and the boat is starting to take on water. What’s your plan?",
+      "options": {
+        "a": "Steer the boat directly into the waves to avoid capsizing.",
+        "b": "Head back to shore immediately.",
+        "c": "Try to find something to patch the hole and stay calm."
+      }
+    },
+    {
+      "scenario": "10. You're wandering through an old, abandoned town when you hear footsteps behind you. It could be someone—or something—following you. How do you react?",
+      "options": {
+        "a": "Turn around and confront whoever is there.",
+        "b": "Hide in a nearby building and wait for them to pass.",
+        "c": "Find a place to observe them without being seen."
+      }
+    }
+  ]
+
+

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+
+{% block body %}
+    <header>
+        <h1 class="pageCover">Journey of the Hidden Self</h1>
+        <br>
+        <h2>Uncover Your True Persona Through Adventure and Choices</h2>
+    </header>
+
+    <main>
+        <p>“Self-awareness is not self-centeredness, and spirituality is not narcissism.
+            <em>‘Know thyself'</em> is not a narcissistic pursuit.” – Marianne Williamson</p>
+        <br><br>
+        <a href="/story" class="impButton"><b>Play Now</b></a>
+        <br><br><br>
+        <a href="/types" class="button">See Personality Types</a>
+
+        <div class="bottom-line">Number of people who already checked their personality: {{ counter }}</div>
+    </main>
+
+
+
+{% endblock %}

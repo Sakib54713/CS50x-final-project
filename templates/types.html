@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Types
+{% endblock %}
+
+
+{% block body %}
+    <h1>Personality Types</h1>
+
+    <ul>
+        {% for personality in personalities %}
+            <li>
+                <h2>{{ personality.title }}</h2>
+                <p>{{ personality.description }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="/" class="button">Go Back Home</a>
+{% endblock %}
